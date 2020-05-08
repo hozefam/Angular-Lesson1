@@ -19,6 +19,7 @@ export class AppComponent {
   onClear() {
     this.number1 = null;
     this.number2 = null;
+    this.result = 0;
   }
 
   calculate() {
